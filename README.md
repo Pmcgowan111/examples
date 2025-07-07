@@ -3,8 +3,11 @@ index: [demos](demos)
 To use a given [`basic-demo`](demos/basic-demo) as a template for a new `myproject`:
 
 ```sh
-$ npx degit pmndrs/examples/demos/basic-demo myproject
-$ code myproject
+git clone https://github.com/pmndrs/vanilla-template minecraft-anim-studio
+cd minecraft-anim-studio
+npm install
+npm run build
+
 ```
 
 # INSTALL
