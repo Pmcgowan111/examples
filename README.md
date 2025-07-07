@@ -3,10 +3,11 @@ index: [demos](demos)
 To use a given [`basic-demo`](demos/basic-demo) as a template for a new `myproject`:
 
 ```sh
-$ git clone https://github.com/pmndrs/vanilla-template minecraft-anim-studio
-$ cd minecraft-anim-studio
-$ npm install
-$ npm run build
+$ npx degit your‑gh‑user/minecraft‑animator my‑anim-app
+$ cd my‑anim-app && npm i
+$ npm run dev             # Live‑reload PWA
+$ npm run build           #  ~3 MB dist/ folder
+
 
 ```
 
@@ -15,6 +16,9 @@ $ npm run build
 ```sh
 $ npm ci
 $ npm run build
+# after npm run build
+$ npx netlify-cli deploy --site minecraft‑animator --prod --dir=dist
+
 ```
 
 # dev
@@ -28,6 +32,9 @@ $ npm run dev
 ```sh
 $ npm ci
 $ npm run build
+# after npm run build
+$ npx netlify-cli deploy --site minecraft‑animator --prod --dir=dist
+
 ```
 
 Then `npx serve out`.
