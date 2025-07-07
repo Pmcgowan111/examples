@@ -14,6 +14,7 @@ $ npm run build
 
 ```sh
 $ npm ci
+$ npm run build
 ```
 
 # dev
@@ -25,6 +26,7 @@ $ npm run dev
 # build
 
 ```sh
+$ npm ci
 $ npm run build
 ```
 
