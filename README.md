@@ -3,10 +3,10 @@ index: [demos](demos)
 To use a given [`basic-demo`](demos/basic-demo) as a template for a new `myproject`:
 
 ```sh
-git clone https://github.com/pmndrs/vanilla-template minecraft-anim-studio
-cd minecraft-anim-studio
-npm install
-npm run build
+$ git clone https://github.com/pmndrs/vanilla-template minecraft-anim-studio
+$ cd minecraft-anim-studio
+$ npm install
+$ npm run build
 
 ```
 
